@@ -4,10 +4,10 @@ import pandas as pd
 
 # Load trained models and scaler
 model_paths = {
-    "ElasticNet": "saved_models/ElasticNet_best_model.joblib",
-    "ExtraTrees": "saved_models/ExtraTrees_best_model.joblib",
-    "Stacking": "saved_models/stacking_regressor_model.joblib",
-    "Voting": "saved_models/voting_regressor_model.joblib"
+    "ElasticNet": "ElasticNet_best_model.joblib",
+    "ExtraTrees": "ExtraTrees_best_model.joblib",
+    "Stacking": "stacking_regressor_model.joblib",
+    "Voting": "voting_regressor_model.joblib"
 }
 
 models = {}
